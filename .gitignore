@@ -1,0 +1,26 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Dynamic libs
+*.dll
+*.so
+*.dylib
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
