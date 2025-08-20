@@ -4,7 +4,8 @@ using namespace std;
 int main() {
     //info card
 string Name, City, Country;
-int Age, MonthlySalary, YearlySalary;
+unsigned short Age, MonthlySalary;
+unsigned int YearlySalary;
 char Gender;
 bool Married;
 cout << "Please enter your details:" << endl;
@@ -37,14 +38,14 @@ cout << "Married: " << Married << endl;
 cout << "**********************************" << endl;
 
 //simple calculation
-int a, b, c;
+short a, b, c;
 cout << "Enter three numbers to sum: ";
 cin >> a >> b >> c;
 int sum = a + b + c;
 cout << a << " + \n" << b << " + \n" << c << "\n ----------------------- \n" << sum << endl;
 
 //After 5 years
-int futureAge = Age + 5;
+unsigned short futureAge = Age + 5;
 cout << "After 5 years, you will be " << futureAge << " years old." << endl;
     return 0;
 }

@@ -21,7 +21,7 @@ float; incorrect variable name (reserved keyword)
 
 //info card
 string Name, City, Country;
-int Age, MonthlySalary, YearlySalary;
+unsigned short Age, MonthlySalary, YearlySalary;
 char Gender;
 bool Married;
 Name = "Hatem";
@@ -44,8 +44,8 @@ cout << "Married: " << Married << endl;
 cout << "**********************************" << endl;
 
 //simple calculation
-int a = 20, b = 30, c = 10;
-int sum = a + b + c;
+short a = 20, b = 30, c = 10;
+short sum = a + b + c;
 cout << a << " + \n" << b << " + \n" << c << "\n ----------------------- \n" << sum << endl;
 
 //After 5 years
