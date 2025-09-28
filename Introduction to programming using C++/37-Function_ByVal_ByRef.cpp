@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void Swap(int &a, int &b) {
+void Swap(int &a, int &b) { //swap is already a function in std namespace so we had to change the name to Swap
     int temp = a;
     a = b;
     b = temp;
